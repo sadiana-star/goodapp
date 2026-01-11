@@ -29,7 +29,7 @@ jobs:
 
     - name: Build APK
       run: |
-        flet build apk --verbose
+        flet build apk jsqi.py --verbose
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
